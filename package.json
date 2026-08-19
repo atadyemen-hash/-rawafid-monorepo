@@ -1,0 +1,12 @@
+{
+  "name": "rawafid-monorepo",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*", "app/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}
